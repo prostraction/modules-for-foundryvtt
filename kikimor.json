@@ -1,0 +1,81 @@
+{
+  "id": "kikimor-cee",
+  "title": "Kikimor. Кэндлкип (расширение и дополнение)",
+  "version": "1.11.12",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/kikimor-cee/assets/arts/Candlekeep-5e.webp",
+      "thumbnail": "modules/kikimor-cee/assets/arts/Candlekeep-5e.webp"
+    }
+  ],
+  "manifest": "https://module.fvtt.club/s/cee-json/download",
+  "download": "https://module.fvtt.club/s/cee-zip/download",
+  "bugs": "https://discord.gg/DFFyASnkTD",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "kikimor-dnd5e-hmb",
+        "type": "module",
+        "manifest": "https://module.fvtt.club/s/dnd5r-hmb-json/download"
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Kikimor's Modules",
+      "sorting": "m",
+      "color": "#30ab92",
+      "folders": [
+        {
+          "name": "Расширения для Кэндлкипа",
+          "sorting": "m",
+          "color": "#14A3C7",
+          "packs": [
+            "kikimor-cee"
+          ],
+          "folders": []
+        }
+      ],
+      "packs": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "Kikimor_Rec",
+      "email": "mr.stepan.kulikov@gmail.com",
+      "url": "https://boosty.to/kikimor_rec",
+      "discord": "Kikimor"
+    }
+  ],
+  "packs": [
+    {
+      "name": "kikimor-cee",
+      "label": "Kikimor. Кэндлкип- Руководство и столкновения",
+      "path": "packs/kikimor-cee",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://boosty.to/kikimor_rec"
+}
